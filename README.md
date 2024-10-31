@@ -1,6 +1,5 @@
-Here's the README formatted for easy pasting with clear Markdown formatting.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-```markdown
 # Shared Task Manager
 
 A collaborative task management web application designed for families to track and discuss shared tasks with integrated chat functionality. Users can create, assign, and communicate about tasks in real-time.
@@ -137,5 +136,3 @@ The application should now be available at `http://localhost:3000`.
 
 ---
 ```
-
-This README provides thorough setup, usage, and additional project context and is ready to paste directly into your repository.
