@@ -19,8 +19,8 @@ A collaborative task management web application designed for families to track a
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/isong5062/task-manager.git
+cd task-manager
 ```
 
 ### 2. Install Dependencies
@@ -123,16 +123,14 @@ The application should now be available at `http://localhost:3000`.
 ## Known Limitations
 
 - **File Uploads**: While the UI allows users to select files, backend support for file uploads (e.g., saving to Supabase storage) is not implemented.
-- **Real-time Updates**: Currently, chat functionality uses polling for real-time updates instead of Supabase's real-time capabilities, which could be implemented for a smoother experience.
 - **Role-Based Permissions**: The app does not include roles or permissions for users beyond task assignments.
 
 ## Future Improvements
 
-- **Enhanced Authentication**: Add secure authentication with providers like Google and Facebook.
 - **Improved Real-Time Chat**: Implement Supabase’s real-time capabilities for smoother, instant chat updates.
 - **File Storage**: Integrate Supabase storage or similar to allow actual file uploads for task attachments.
 - **Push Notifications**: Notify users when they’re assigned a task or receive a message.
 - **Role-Based Access Control**: Introduce permissions for different user roles to manage who can view, edit, or delete tasks.
+- **Enhanced Authentication**: Add secure authentication with providers like Google and Facebook.
 
 ---
-```
